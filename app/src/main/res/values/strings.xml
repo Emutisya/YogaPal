@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">YogaPal</string>
+    <string name="exercises">Exercises</string>
+    <string name="setting">Setting</string>
+    <string name="calendar">Calendar</string>
+    <string name="view_exercises">VIEW EXERCISES</string>
+    <string name="fast_tracker">Fast Tracker</string>
+    <string name="meditation_timer">Meditation Timer</string>
+    <string name="music">Click to Play Yoga Music</string>
+    <string name="yoga_music">Yoga Music</string>
+    <string name="restart_meditation">Restart Meditation</string>
+    <string name="start_meditation">Start Meditation</string>
+</resources>

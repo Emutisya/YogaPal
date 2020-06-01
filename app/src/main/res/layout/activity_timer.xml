@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bctwo"
+    tools:context=".timer">
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="77dp"
+        android:layout_height="160dp"
+
+        android:src="@drawable/back"
+
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="-20dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+
+        android:src="@drawable/logoo"
+
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="-20dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/hour"
+        android:layout_width="match_parent"
+        android:layout_height="197dp"
+        android:layout_below="@+id/logo"
+        android:src="@drawable/hour"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="407dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/watchScreen"
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginRight="4dp"
+
+        android:background="@drawable/buttton"
+        android:onClick="onClickStart"
+        android:radius="30dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="@string/start_meditation"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_width="399dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/startBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttton"
+        android:onClick="onClickStop"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Stop Meditation"
+        android:textColor="#ffff" />
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_below="@+id/stopBtn"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/buttton"
+        android:onClick="onClickReset"
+        android:text="@string/restart_meditation"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:id="@+id/watchScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hour"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="346dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="92sp" />
+
+
+
+     />
+
+</RelativeLayout>
