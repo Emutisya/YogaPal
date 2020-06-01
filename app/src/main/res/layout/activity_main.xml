@@ -102,7 +102,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/buttton"
             android:shadowColor="@color/colorPrimaryDark"
-            android:text="@string/calendar"
+            android:text="@string/schedule_yoga_session"
             android:textColor="#ffff"
 
             />

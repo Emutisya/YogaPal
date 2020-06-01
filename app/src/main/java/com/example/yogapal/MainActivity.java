@@ -51,6 +51,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        btnCalendar =(Button)findViewById(R.id.btnCalendar);
+        btnCalendar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,Calendar.class);
+                startActivity(intent);
+            }
+        });
+
         btnTimer =(Button)findViewById(R.id.btnTimer);
         btnTimer.setOnClickListener(new View.OnClickListener() {
             @Override
