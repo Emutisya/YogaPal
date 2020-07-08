@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bc"
+    tools:context=".YogaActivity">
+
+    <ImageView
+        android:id="@+id/btnlogo"
+        android:layout_width="match_parent"
+        android:layout_height="285dp"
+
+        android:src="@drawable/logoo"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="640dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/btnExercise"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="207dp"
+                android:layout_height="59dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttton"
+                android:radius="30dp"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:text="@string/yoga_exercises"
+                android:textColor="#ffff"
+
+                />
+
+            <Button
+                android:id="@+id/btnPlay"
+                android:layout_width="201dp"
+                android:layout_height="63dp"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/buttton"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:text="@string/yoga_music"
+                android:textColor="#ffff"
+
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCalendar"
+            android:layout_width="387dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/buttton"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:text="@string/schedule_yoga_session"
+            android:textColor="#ffff"
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

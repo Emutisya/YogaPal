@@ -10,15 +10,15 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-
-    Button btnExercises,btnTimer,btnCalendar;
-    ImageView btnPlay;
+//btn btnExercises
+    Button btnYoga,btnMeditation,btnCalendar;
+  //  ImageView btnPlay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+/*
         final MediaPlayer meditation = MediaPlayer.create(this, R.raw.meditation);
         btnPlay =(ImageView)findViewById(R.id.btnPlay);
 
@@ -40,32 +40,34 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+*/
 
-
-        btnExercises =(Button)findViewById(R.id.btnExercise);
-        btnExercises.setOnClickListener(new View.OnClickListener() {
+        btnYoga =(Button)findViewById(R.id.btnYoga);
+        btnYoga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,ListExercises.class);
+                Intent intent = new Intent(MainActivity.this,YogaActivity.class);
                 startActivity(intent);
             }
         });
 
-
+/*
         btnCalendar =(Button)findViewById(R.id.btnCalendar);
         btnCalendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,Calendar.class);
+                Intent intent = new Intent(MainActivity.this,CustomCalendarViewWithEvents.class);
                 startActivity(intent);
             }
         });
+        */
 
-        btnTimer =(Button)findViewById(R.id.btnTimer);
-        btnTimer.setOnClickListener(new View.OnClickListener() {
+
+        btnMeditation =(Button)findViewById(R.id.btnMeditation);
+        btnMeditation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,timer.class);
+                Intent intent = new Intent(MainActivity.this,MeditationActivity.class);
                 startActivity(intent);
             }
         });

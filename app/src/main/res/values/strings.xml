@@ -7,8 +7,72 @@
     <string name="fast_tracker">Fast Tracker</string>
     <string name="meditation_timer">Meditation Timer</string>
     <string name="music">Click to Play Yoga Music</string>
-    <string name="yoga_music">Yoga Music</string>
+
     <string name="restart_meditation">Restart Meditation</string>
     <string name="start_meditation">Start Meditation</string>
     <string name="schedule_yoga_session">Schedule Yoga Session</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thur">Thur</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="_1">1</string>
+    <string name="schedule_session">Schedule Session</string>
+    <string name="_00_00am">00:00AM</string>
+    <string name="add_yoga_session">Add Yoga Session</string>
+    <string name="yoga_workout_poses">Yoga WorkOut Poses</string>
+    <string name="hold_your_left_leg_with_your_right_hand_and_stratch_to_your_right_for_30_seconds">Hold Your Left leg with your right hand and stratch to your right for 30 seconds.</string>
+    <string name="lift_your_back_up_at_a_60_degree_angle_for_1_minute">Lift your back up at a 60 degree angle for 1 minute</string>
+    <string name="incline_in_this_position_for_20_sec">Incline in this position for 20 sec</string>
+    <string name="meditation">MEDITATION</string>
+    <string name="yoga">YOGA</string>
+    <string name="yoga_music">Yoga Music</string>
+    <string name="yoga_exercises">Yoga EXERCISES</string>
+    <string name="meditation_music">Meditation Music</string>
+    <string name="time_your_meditation">TIME YOUR MEDITATION</string>
+    <string name="ayurvedo_playlist_jamal_jin">Ayurvedo Playlist: Jamal Jin</string>
+    <string name="recipe_img">recipe_img</string>
+    <string name="title">Title</string>
+    <string name="browser_our_recipe_collection">Browser our recipe collection</string>
+
+
+    <array name="dessert_img">
+        <item>@drawable/yoga</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/yoga</item>
+        <item>@drawable/yoga</item>
+    </array>
+
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Sandwich</item>
+
+    </string-array>
+    <string-array name="dessert_description">
+        <item>taste bud stimulating donut</item>
+        <item>get the best froyo in town</item>
+        <item>sandwich that leave a mark</item>
+        <item>taste bud stimulating donut</item>
+        <item>get the best froyo in town</item>
+        <item>sandwich that leave a mark</item>
+        <item>taste bud stimulating donut</item>
+        <item>get the best froyo in town</item>
+        <item>sandwich that leave a mark</item>
+
+
+    </string-array>
 </resources>
