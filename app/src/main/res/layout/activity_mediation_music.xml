@@ -5,12 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bc"
-    tools:context=".YogaMusicActivity">
+    tools:context=".MediationMusicActivity">
 
     <ImageView
         android:id="@+id/btnlogo"
         android:layout_width="match_parent"
-        android:layout_height="86dp"
+        android:layout_height="78dp"
 
         android:src="@drawable/logs" />
 
@@ -31,7 +31,7 @@
             android:padding="30dp"
 
 
-            android:src="@drawable/ipod" />
+            android:src="@drawable/meditations" />
         <!--
         <RatingBar
             android:id="@+id/rating"
@@ -49,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/ronaldsmith"
-            android:text="@string/ayurvedo_playlist_jamal_jin"
+            android:text="@string/positive_sounds_playlist_hanna_disk"
             android:textAlignment="center"
             android:textColor="#ffffff"
             android:textSize="26dp"

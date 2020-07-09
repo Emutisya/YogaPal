@@ -21,9 +21,9 @@
     <ImageView
         android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="165dp"
+        android:layout_height="81dp"
 
-        android:src="@drawable/logoo"
+        android:src="@drawable/logs"
 
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="-20dp" />
@@ -31,9 +31,10 @@
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/hour"
         android:layout_width="match_parent"
-        android:layout_height="197dp"
+        android:layout_height="241dp"
         android:layout_below="@+id/logo"
-        android:src="@drawable/hour"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/monk"
         tools:layout_editor_absoluteX="4dp"
         tools:layout_editor_absoluteY="148dp" />
 

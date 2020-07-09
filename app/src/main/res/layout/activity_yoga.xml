@@ -13,11 +13,21 @@
     <ImageView
         android:id="@+id/btnlogo"
         android:layout_width="match_parent"
-        android:layout_height="285dp"
+        android:layout_height="97dp"
 
-        android:src="@drawable/logoo"
+        android:src="@drawable/logs"
 
         />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/hour"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerInParent="true"
+        android:src="@drawable/yoggg"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="148dp" />
 
 
     <LinearLayout
