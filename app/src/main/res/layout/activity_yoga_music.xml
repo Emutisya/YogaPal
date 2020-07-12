@@ -15,24 +15,35 @@
         android:src="@drawable/logs" />
 
     <LinearLayout
-        android:layout_width="307dp"
-        android:layout_height="474dp"
+        android:layout_width="318dp"
+        android:layout_height="523dp"
         android:layout_below="@+id/logo"
         android:layout_centerInParent="true"
-        android:background="#A5011715"
+        android:background="#B602756A"
         android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
 
-        <ImageView
-            android:id="@+id/album"
-            android:layout_width="320dp"
-            android:layout_height="320dp"
+            android:layout_height="508dp"
+            android:layout_below="@+id/logo"
+            android:layout_centerInParent="true"
             android:layout_centerHorizontal="true"
-            android:padding="30dp"
+            android:layout_centerVertical="true"
+            android:background="#A5011715"
+            android:orientation="vertical">
 
 
-            android:src="@drawable/ipod" />
-        <!--
+            <ImageView
+                android:id="@+id/album"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:layout_centerHorizontal="true"
+                android:padding="30dp"
+
+
+                android:src="@drawable/ipod" />
+            <!--
         <RatingBar
             android:id="@+id/rating"
 
@@ -45,63 +56,64 @@
             android:rating="2.5"
             android:stepSize="0.5" />
 -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/ronaldsmith"
-            android:text="@string/ayurvedo_playlist_jamal_jin"
-            android:textAlignment="center"
-            android:textColor="#ffffff"
-            android:textSize="26dp"
-            android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ronaldsmith"
+                android:text="@string/ayurvedo_playlist_jamal_jin"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="26dp"
+                android:textStyle="bold" />
 
-        <LinearLayout
-            android:layout_width="288dp"
-            android:layout_height="93dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginStart="80dp"
-            android:layout_marginTop="6dp"
+            <LinearLayout
+                android:layout_width="288dp"
+                android:layout_height="93dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="6dp"
 
-            android:layout_marginEnd="67dp"
-            android:layout_marginBottom="60dp"
-
-
-            android:orientation="horizontal">
+                android:layout_marginEnd="67dp"
+                android:layout_marginBottom="60dp"
 
 
-            <Button
-                android:id="@+id/pause"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentStart="true"
-                android:layout_centerHorizontal="true"
-                android:layout_margin="20dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginBottom="204dp"
-                android:background="@drawable/paus" />
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/play"
-                android:layout_width="65dp"
-                android:layout_height="65dp"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_margin="20dp"
-                android:layout_marginTop="80dp"
 
-                android:background="@drawable/play" />
+                <Button
+                    android:id="@+id/pause"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="204dp"
+                    android:background="@drawable/paus" />
 
-            <Button
-                android:id="@+id/stop"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_alignParentEnd="true"
+                <Button
+                    android:id="@+id/play"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="80dp"
 
-                android:layout_centerHorizontal="true"
-                android:layout_margin="20dp"
-                android:layout_marginBottom="204dp"
-                android:background="@drawable/stop" />
+                    android:background="@drawable/play" />
 
+                <Button
+                    android:id="@+id/stop"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="20dp"
+                    android:layout_marginBottom="204dp"
+                    android:background="@drawable/stop" />
+
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

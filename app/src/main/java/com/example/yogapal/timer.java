@@ -8,19 +8,46 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class timer extends AppCompatActivity {
     private int seconds = 0;
     private boolean running;
     private boolean wasRunning;
+
+
+    private long mStartTimeInMillis;
+    private EditText mEditTextInput;
+    private Button mButtonSet;
+
     ImageView back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_timer);
+
+        mEditTextInput=findViewById(R.id.edit_text_input);
+        mButtonSet=findViewById(R.id.button_set);
+        mButtonSet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                String input= mEditTextInput.getText().toString();
+                if(input.length()==0){
+                    Toast.makeText(timer.this,"Field can't be empty",Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
+            }
+        });
+
+
+
+
         if (savedInstanceState != null) {
             seconds = savedInstanceState.getInt("seconds");
             running = savedInstanceState.getBoolean("running");

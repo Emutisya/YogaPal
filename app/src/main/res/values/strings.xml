@@ -37,6 +37,9 @@
     <string name="title">Title</string>
     <string name="browser_our_recipe_collection">Browser our recipe collection</string>
     <string name="positive_sounds_playlist_hanna_disk">Positive sounds Playlist : Hanna Disk</string>
+    <string name="minutes">Minutes</string>
+    <string name="set">SET</string>
+    <string name="set_reminder">set Reminder</string>
 
 
     <array name="dessert_img">

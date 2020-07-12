@@ -31,7 +31,7 @@
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/hour"
         android:layout_width="match_parent"
-        android:layout_height="241dp"
+        android:layout_height="181dp"
         android:layout_below="@+id/logo"
         android:layout_marginTop="7dp"
         android:src="@drawable/monk"
@@ -40,13 +40,14 @@
 
     <Button
         android:id="@+id/startBtn"
-        android:layout_width="407dp"
-        android:layout_height="61dp"
+        android:layout_width="403dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/watchScreen"
         android:layout_marginLeft="8dp"
 
-        android:layout_marginRight="4dp"
+        android:layout_marginTop="13dp"
 
+        android:layout_marginRight="4dp"
         android:background="@drawable/buttton"
         android:onClick="onClickStart"
         android:radius="30dp"
@@ -56,13 +57,13 @@
 
     <Button
         android:id="@+id/stopBtn"
-        android:layout_width="399dp"
-        android:layout_height="63dp"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/startBtn"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal|bottom"
         android:layout_marginLeft="4dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="26dp"
         android:layout_marginRight="8dp"
         android:layout_weight="1"
         android:background="@drawable/buttton"
@@ -74,13 +75,36 @@
     <Button
         android:id="@+id/resetBtn"
         android:layout_width="match_parent"
-        android:layout_height="68dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/stopBtn"
-        android:layout_marginTop="7dp"
+        android:layout_marginTop="27dp"
         android:background="@drawable/buttton"
         android:onClick="onClickReset"
         android:text="@string/restart_meditation"
         android:textColor="#ffff" />
+
+    <EditText
+        android:id="@+id/edit_text_input"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hour"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="184dp"
+        android:hint="@string/minutes"
+        android:inputType="number"
+        android:maxLength="4" />
+
+    <Button
+        android:id="@+id/button_set"
+        android:layout_width="153dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/hour"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/buttton"
+        android:text="@string/set_reminder" />
 
     <TextView
         android:id="@+id/watchScreen"
