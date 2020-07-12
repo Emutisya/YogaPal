@@ -40,6 +40,8 @@
     <string name="minutes">Minutes</string>
     <string name="set">SET</string>
     <string name="set_reminder">set Reminder</string>
+    <string name="warrior_pose">Warrior Pose</string>
+    <string name="sit_in_this_position_for_30_seconds_then_have_a_15_second_break_and_stop">Sit in this position for 30 seconds then have a 15 second break and stop</string>
 
 
     <array name="dessert_img">

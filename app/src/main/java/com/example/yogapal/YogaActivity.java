@@ -36,7 +36,7 @@ public class YogaActivity extends AppCompatActivity {
         btnExercise.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(YogaActivity.this,workout.class);
+                Intent intent = new Intent(YogaActivity.this,YogaEActivity.class);
                 startActivity(intent);
             }
         });

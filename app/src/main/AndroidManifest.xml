@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MediationMusicActivity"></activity>
+        <activity android:name=".YogaEActivity"></activity>
+        <activity android:name=".MActivity" />
+        <activity android:name=".MediationMusicActivity" />
         <activity android:name=".YogaMusicActivity" />
         <activity android:name=".MeditationActivity" />
         <activity android:name=".YogaActivity" />
